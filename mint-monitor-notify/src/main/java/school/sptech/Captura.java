@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.util.Random;
 
 public class Captura {
-        public static final Random rand = new Random();
+        Random rand = new Random();
 
         public String[] capturarLogs(int qtdCapturas, int intervaloMs) throws InterruptedException {
 

@@ -1,9 +1,9 @@
 package school.sptech;
 
 public class Notificacao {
-    public final double LIMITE = 80.0;
+    double LIMITE = 80.0;
 
-    void dispararNotificacao(double cpu, double ram, double disco) {
+   public void dispararNotificacao(double cpu, double ram, double disco) {
         if (cpu > LIMITE) {
             System.out.println("[Enviando notificação de CPU no Slack...]");
         }
